@@ -22,8 +22,7 @@ public class ComputerRole {
 
 
 
-    void printNumber() {
-        List<Integer> cpuNum = createCpuNumber();
+    void printNumber(List<Integer> cpuNum) {
         System.out.println(cpuNum.get(0));
         System.out.println(cpuNum.get(1));
         System.out.println(cpuNum.get(2));

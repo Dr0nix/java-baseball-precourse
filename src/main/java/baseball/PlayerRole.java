@@ -2,10 +2,6 @@ package baseball;
 
 import camp.nextstep.edu.missionutils.Console;
 
-class playerNumber {
-    int num1, num2, num3;
-}
-
 public class PlayerRole {
     int playerInput() {
         String inputString = Console.readLine();

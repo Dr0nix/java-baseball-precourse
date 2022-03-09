@@ -3,17 +3,22 @@ package baseball;
 import java.util.Arrays;
 import java.util.List;
 
+class playerNumber {
+    int num1, num2, num3;
+}
+
 public class Application {
     public static void main(String[] args) {
         ComputerRole cpuRole = new ComputerRole();
         Judge judge = new Judge();
 
-        cpuRole.printNumber();
+        List<Integer> cpuNum = cpuRole.createCpuNumber();
         List<Integer> ballcount = Arrays.asList(0,0);
+
         while (true) {
             ballcount.set(0,0);
             ballcount.set(1,0);
-            judge.judgeBallcount(ballcount);
+            judge.judgeBallcount(ballcount, cpuNum);
             int finish = judge.printBallCount(ballcount);
 
             if (finish != 0) {
