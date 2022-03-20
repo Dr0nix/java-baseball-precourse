@@ -128,3 +128,12 @@
 ## 📝 License
 
 This project is [MIT](https://github.com/woowacourse/java-baseball-precourse/blob/master/LICENSE) licensed.
+
+## 구현해야 할 기능
+
+- 컴퓨터의 숫자 3자리 만들기 (중복 없이)
+- 사용자로부터 숫자 3자리 입력받기
+  * 예외입력 처리 (3자리가 아닌 숫자, 중복된 숫자, 다른 자료형 등)
+- 제대로 입력받은 숫자를 숫자 3개로 분리
+- 각 숫자를 컴퓨터의 숫자와 비교해서 볼카운트 판정하기
+- 판정한 볼카운트 출력하기
